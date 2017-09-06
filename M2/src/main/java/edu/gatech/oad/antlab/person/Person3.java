@@ -47,6 +47,5 @@ public class Person3 {
 	  	temp = temp + input.substring(i,i+1);
 	  }
 	  return temp;
-	  return null;
 	}
 }
