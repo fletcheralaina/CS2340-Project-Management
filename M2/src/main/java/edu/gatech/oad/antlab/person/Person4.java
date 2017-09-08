@@ -4,8 +4,8 @@ package edu.gatech.oad.antlab.person;
  *  A simple class for person 4
  *  returns their name and a
  *  modified string 
- *  
- *  @author Bob
+ *
+ *  @author Safa
  *  @version 1.1
  */
 public class Person4 {
@@ -30,8 +30,8 @@ public class Person4 {
      * @return the modified string
      */
     private String calc(String input) {
-      //Person 4 put your implementation here
-      return null;
+      //Person 4 put your implementation her
+      return input + 'a';
     }
     
     /**
