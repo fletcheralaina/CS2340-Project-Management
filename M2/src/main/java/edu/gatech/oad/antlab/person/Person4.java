@@ -38,8 +38,6 @@ public class Person4 {
         //increase value of each character by 1
         charArr[i]  =(char)(charArr[i] + 1);
       }
-
-      //convert char array back to String type
       return new String(charArr);
     }
     
