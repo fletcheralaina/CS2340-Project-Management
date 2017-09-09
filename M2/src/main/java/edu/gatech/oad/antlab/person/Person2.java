@@ -30,8 +30,26 @@ public class Person2 {
 	 * @return the modified string
 	 */
 	private String calc(String input) {
-	  //Person 2 put your implementation here
-	  return null;
+		Random gen = new Random();
+		int tracker = name.length();
+		int b;
+		String newName = "";
+		String name2 = name.substring(0, name.length());
+		for (int i = 0; i < tracker; i++) {
+			b = gen.nextInt(name2.length());
+			System.out.println(b);
+			System.out.println(name2.length());
+			newName = newName + name2.charAt(b);
+			if (b == name.length() - 1) {
+				name2 = name2.substring(0, b);
+			} else if (b == 0) {
+				name2 = name2.substring(1, name2.length());
+			} else {
+				name2 = name2.substring(0, b) + name2.substring(b
+						+ 1, name2.length());
+			}
+		}
+		return newName;
 	}
 	/**
 	 * Return a string rep of this object
