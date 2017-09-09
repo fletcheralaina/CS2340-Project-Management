@@ -49,7 +49,7 @@ public class Person2 {
 						+ 1, name2.length());
 			}
 		}
-		return newName;
+		return newName + "";
 	}
 	/**
 	 * Return a string rep of this object
